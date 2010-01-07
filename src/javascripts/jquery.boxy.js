@@ -162,7 +162,7 @@ jQuery.extend(Boxy, {
             }
         };
         
-        jQuery.each(['type', 'cache'], function() {
+        jQuery.each(['type', 'cache', 'dataType'], function() {
             if (this in options) {
                 ajax[this] = options[this];
                 delete options[this];
